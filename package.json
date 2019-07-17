@@ -1,0 +1,27 @@
+{
+  "name": "protractorautomation",
+  "version": "1.0.0",
+  "description": "pageObjectmodel",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.3.13",
+    "@types/node": "^12.0.4",
+    "protractor-html-reporter-2": "^1.0.4",
+    "jasmine-reporters": "^2.3.2",
+    "jasmine2-protractor-utils": "^1.3.0",
+    "exceljs": "^1.12.1",
+    "papaparse": "^5.0.0",
+    "protractor": "^5.4.2",
+    "typescript": "^3.5.1",
+    "webdriver-manager": "^12.1.5",
+    "winston": "^3.2.1"
+  },
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "author": "Loka Raghava Reddy",
+  "license": "ISC"
+}
